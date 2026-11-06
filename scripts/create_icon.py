@@ -122,6 +122,7 @@ def main() -> None:
         + png
     )
     destination = ROOT / "assets" / "OrbitPilotAI.ico"
+    destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(icon)
     print(f"Created {destination}")
 
