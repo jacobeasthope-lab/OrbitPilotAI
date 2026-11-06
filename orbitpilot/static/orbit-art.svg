@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ice" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f5fbff"/>
+      <stop offset=".48" stop-color="#79dff5"/>
+      <stop offset="1" stop-color="#788cff"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#e6f4ff"/>
+      <stop offset=".45" stop-color="#829ab9"/>
+      <stop offset="1" stop-color="#293b58"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#78dff8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#688dff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core">
+      <stop stop-color="#fff"/>
+      <stop offset=".25" stop-color="#bff8ff"/>
+      <stop offset=".67" stop-color="#6789ff"/>
+      <stop offset="1" stop-color="#765ee0" stop-opacity=".18"/>
+    </radialGradient>
+  </defs>
+  <symbol id="ai" viewBox="0 0 220 140">
+    <ellipse cx="113" cy="72" rx="88" ry="37" fill="none" stroke="#78e4fa" stroke-opacity=".42" transform="rotate(-24 113 72)"/>
+    <ellipse cx="113" cy="72" rx="69" ry="51" fill="none" stroke="#9e9aff" stroke-opacity=".5" transform="rotate(32 113 72)"/>
+    <circle cx="113" cy="72" r="63" fill="url(#glow)"/>
+    <circle cx="113" cy="72" r="35" fill="url(#core)"/>
+    <path d="M113 51v42m-21-21h42m-36-15 30 30m0-30-30 30" fill="none" stroke="#f4ffff" stroke-linecap="round" stroke-width="2.2" opacity=".8"/>
+    <circle cx="38" cy="44" r="3" fill="#c9f8ff"/><circle cx="182" cy="43" r="2.5" fill="#a8a0ff"/>
+    <circle cx="57" cy="112" r="2" fill="#82e9fb"/><circle cx="171" cy="105" r="3" fill="#fff" opacity=".8"/>
+    <path d="m31 32 8 8m-4-4h-8m151 66 8 8m-4-4h-8" stroke="#bcefff" stroke-opacity=".75"/>
+  </symbol>
+  <symbol id="sky" viewBox="0 0 220 140">
+    <path d="M26 112a84 84 0 0 1 168 0" fill="#10223d" fill-opacity=".72" stroke="#78dff5" stroke-opacity=".7" stroke-width="1.5"/>
+    <path d="M43 112a67 67 0 0 1 134 0M64 112a46 46 0 0 1 92 0M109 29v83M27 112h166" fill="none" stroke="#7494de" stroke-opacity=".45"/>
+    <path d="m55 77 25-24 23 14 31-31 31 26" fill="none" stroke="#a9c5ff" stroke-opacity=".58"/>
+    <g fill="#e1faff"><circle cx="55" cy="77" r="3"/><circle cx="80" cy="53" r="2"/><circle cx="103" cy="67" r="2.5"/><circle cx="134" cy="36" r="3.2"/><circle cx="165" cy="62" r="2.4"/></g>
+    <circle cx="109" cy="29" r="15" fill="url(#glow)"/><circle cx="109" cy="29" r="4" fill="#efffff"/>
+    <path d="M31 121h156" stroke="#8bdff1" stroke-opacity=".55"/>
+  </symbol>
+  <symbol id="galaxy" viewBox="0 0 220 140">
+    <ellipse cx="111" cy="72" rx="93" ry="48" fill="url(#glow)"/>
+    <path d="M44 74c10-41 65-58 105-37 33 17 31 49-2 68-34 20-85 16-101-9-13-19 3-39 34-48 32-9 68-1 75 18 7 18-13 34-40 37-21 2-38-5-40-18-2-10 10-19 24-19" fill="none" stroke="#88a8ff" stroke-opacity=".75" stroke-width="5" stroke-linecap="round"/>
+    <path d="M48 61c16-34 65-42 97-25 27 14 27 37 4 52-24 16-63 18-82 4" fill="none" stroke="#9af1ff" stroke-opacity=".58" stroke-width="2"/>
+    <ellipse cx="111" cy="72" rx="12" ry="8" fill="#fff" opacity=".88"/>
+    <circle cx="111" cy="72" r="25" fill="url(#glow)"/>
+    <g fill="#d9eaff"><circle cx="33" cy="41" r="1.6"/><circle cx="181" cy="37" r="2"/><circle cx="183" cy="101" r="1.5"/><circle cx="51" cy="111" r="1.4"/><circle cx="151" cy="113" r="1.6"/></g>
+  </symbol>
+  <symbol id="telescope" viewBox="0 0 220 140">
+    <ellipse cx="107" cy="124" rx="72" ry="10" fill="#7daeff" opacity=".1"/>
+    <path d="m57 40 95 39-12 25-95-40z" fill="url(#steel)" stroke="#d7efff" stroke-opacity=".62"/>
+    <path d="m45 64 12-25-17-7-16 29z" fill="#d8f6ff" stroke="#fff" stroke-opacity=".55"/>
+    <ellipse cx="147" cy="91" rx="8" ry="15" fill="url(#core)" transform="rotate(23 147 91)"/>
+    <path d="m91 54 11-22 24 10-10 24z" fill="#253b5b" stroke="#c2dbff" stroke-opacity=".55"/>
+    <circle cx="107" cy="75" r="8" fill="#c3f5ff"/>
+    <path d="m107 83-6 28m9-28 26 29m-36-19-29 30m29-30 38 30m-38-30v39m-47 0h105" fill="none" stroke="#a9c6e8" stroke-linecap="round" stroke-width="5"/>
+    <circle cx="179" cy="34" r="16" fill="url(#glow)"/><circle cx="179" cy="34" r="5" fill="#e4edff"/>
+  </symbol>
+  <symbol id="camera" viewBox="0 0 220 140">
+    <ellipse cx="111" cy="119" rx="70" ry="9" fill="#6ba6ff" opacity=".12"/>
+    <path d="M40 43h38l12-15h43l13 15h34v64H40z" fill="url(#steel)" stroke="#d3e8ff" stroke-opacity=".65" stroke-width="2"/>
+    <path d="M51 52h15v9H51z" fill="#bff8ff" opacity=".8"/>
+    <circle cx="112" cy="73" r="30" fill="#142442" stroke="#d7edff" stroke-opacity=".72" stroke-width="2"/>
+    <circle cx="112" cy="73" r="23" fill="url(#core)"/><circle cx="112" cy="73" r="12" fill="#091427" stroke="#a9f3ff" stroke-opacity=".7"/>
+    <circle cx="104" cy="64" r="5" fill="#fff" opacity=".65"/><circle cx="166" cy="56" r="3" fill="#a5fff0"/>
+    <path d="M47 98h130" stroke="#19314e" stroke-width="3"/>
+  </symbol>
+  <symbol id="guiding" viewBox="0 0 220 140">
+    <rect x="28" y="23" width="164" height="96" rx="10" fill="#0c1729" stroke="#5f85c6" stroke-opacity=".5"/>
+    <path d="M47 42h126M47 64h126M47 86h126M47 108h126M68 35v74M100 35v74M132 35v74M164 35v74" stroke="#7ea1dd" stroke-opacity=".16"/>
+    <path d="m42 78 21-4 18 6 19-9 18 4 17-11 17 5 26-9" fill="none" stroke="#79e8f4" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m42 89 21-3 18 2 19-6 18 4 17-4 17 3 26-5" fill="none" stroke="#a18bff" stroke-opacity=".74" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="178" cy="60" r="4" fill="#bffcff"/><circle cx="178" cy="60" r="11" fill="url(#glow)"/>
+  </symbol>
+  <symbol id="journal" viewBox="0 0 220 140">
+    <path d="M55 30h99a12 12 0 0 1 12 12v73H68a13 13 0 0 1-13-13z" fill="url(#steel)" stroke="#e0f0ff" stroke-opacity=".65" stroke-width="1.5"/>
+    <path d="M68 32v82m-9-72h7m-7 19h7m-7 19h7m-7 19h7" stroke="#283c5a" stroke-width="3"/>
+    <path d="M83 51h60m-60 17h48m-48 17h58m-58 17h37" stroke="#162b49" stroke-linecap="round" stroke-width="4"/>
+    <path d="m157 26 4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#d5faff"/>
+    <circle cx="166" cy="84" r="28" fill="url(#glow)"/><circle cx="166" cy="84" r="3" fill="#fff"/>
+  </symbol>
+  <symbol id="settings" viewBox="0 0 220 140">
+    <circle cx="108" cy="71" r="53" fill="url(#glow)"/>
+    <path d="m102 28 13 0 4 13a34 34 0 0 1 9 4l12-6 9 10-7 12a34 34 0 0 1 2 10l10 8-5 13-14-1a34 34 0 0 1-7 7l1 14-13 5-8-11a34 34 0 0 1-10-1l-9 10-12-7 3-14a34 34 0 0 1-6-8l-13-3 0-14 13-4a34 34 0 0 1 4-9l-6-12 10-9 12 7a34 34 0 0 1 10-2z" fill="url(#steel)" stroke="#e2f1ff" stroke-opacity=".62" stroke-width="1.5"/>
+    <circle cx="108" cy="72" r="20" fill="#101b30" stroke="#9feeff" stroke-opacity=".8" stroke-width="2"/>
+    <circle cx="108" cy="72" r="7" fill="url(#core)"/>
+    <ellipse cx="108" cy="72" rx="79" ry="30" fill="none" stroke="#7ee7f5" stroke-opacity=".32" transform="rotate(-22 108 72)"/>
+    <circle cx="183" cy="41" r="4" fill="#d2faff"/><circle cx="43" cy="108" r="3" fill="#a99aff"/>
+  </symbol>
+</svg>

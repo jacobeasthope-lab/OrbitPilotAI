@@ -1,0 +1,16 @@
+OrbitPilotAI for Windows
+
+Start the app
+1. Download OrbitPilotAI.exe and double-click it. No Python, terminal, or command script is required.
+2. On first launch, the app may install Microsoft's WebView2 Runtime. That one-time setup needs an internet connection.
+3. Your existing Groq key remains in this Windows user's Credential Manager. If Orbit AI reports a key error, use Settings to validate or replace it.
+
+Connect astronomy equipment
+- Real telescope movement requires the ASCOM Platform and the correct mount driver installed in Windows.
+- The Alpaca option is a software simulator only. The app labels simulator state and does not treat it as a physical telescope.
+- ASI camera capture requires the official ZWO Windows camera driver. Close PHD2 before connecting the same camera in OrbitPilotAI.
+- Camera Studio supports single-frame preview and FITS capture, not high-frame-rate video or image stacking.
+
+The sky map's offline HYG star catalog is attributed in the app and licensed CC BY-SA 4.0. FITS captures are saved in Pictures\OrbitPilotAI\Captures.
+
+The standalone app and camera preview were software-tested on this build PC. A physical ASCOM mount and ZWO camera were not available for hardware testing.

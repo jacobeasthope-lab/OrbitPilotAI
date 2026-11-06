@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+httpx>=0.27,<1
+keyring>=25,<27
+pywin32>=308; platform_system == "Windows"
+pywebview>=5.4,<6; platform_system == "Windows"
+# ZWO live capture; the official ZWO Windows USB camera driver is still required.
+pyzwoasi==0.2.7; platform_system == "Windows"
+astropy>=6,<9

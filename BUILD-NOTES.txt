@@ -1,0 +1,10 @@
+Build kit contents:
+- BUILD-WINDOWS.bat: Windows build script (the app user only receives the EXE)
+- .github/workflows/build-windows.yml: hosted Windows build and smoke test
+- OrbitPilotAI.spec: one-file, windowed PyInstaller recipe
+- scripts/create_icon.py: standard-library Windows icon generator using the redesigned dashboard logo
+- desktop_launcher.py: local web-server launcher for the dashboard
+- requirements-build.txt: dependencies used by the Windows packager
+- orbitpilot/: FastAPI server, ZWO still-capture support, offline HYG star catalog and dashboard assets
+
+No user API key is included. Run the Windows build workflow to generate and smoke-test the standalone EXE and complete source ZIP.
